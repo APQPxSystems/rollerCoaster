@@ -123,7 +123,7 @@ function init() {
 
     rider.add(head, body, leftArm, rightArm, leftLeg, rightLeg);
 
-    // EJ LABEL
+    // Kent LABEL
     const canvasLabel = document.createElement('canvas');
     const ctx = canvasLabel.getContext('2d');
     canvasLabel.width = 256;
@@ -132,7 +132,7 @@ function init() {
     ctx.fillStyle = "white";
     ctx.font = "bold 60px Arial";
     ctx.textAlign = "center";
-    ctx.fillText("EJ", 128, 80);
+    ctx.fillText("Kent", 128, 80);
 
     const texture = new THREE.CanvasTexture(canvasLabel);
     const spriteMaterial = new THREE.SpriteMaterial({ map: texture, transparent: true });
